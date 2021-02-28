@@ -8,5 +8,9 @@
 console.log("Begin program");
 
 // 3.)
+// Next, write the code for an alert dialog with the message "I am Programming!".
+alert("I am Programming!");
 
 // 4.)
+// Lastly, write the code that will load in he console "End Program!".
+console.log("End Program!");
