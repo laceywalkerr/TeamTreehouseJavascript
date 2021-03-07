@@ -8,3 +8,21 @@ points += bonusPts;
 console.log(points);
 
 Answer: const wont work here, use "var" instead.
+
+The following produces an Uncaught SyntaxError:
+    let numberToGuess = 5;
+    let numberToGuess = 20;
+    console.log(numberToGuess);
+
+The following do not cause an Uncaught SyntaxError:
+    var numberToGuess = 5;
+    var numberToGuess = 20;
+    console.log(numberToGuess);
+
+    var numberToGuess = 5;
+    numberToGuess += 3;
+    console.log(numberToGuess);
+
+    let numberToGuess = 5;
+    numberToGuess += 3;
+    console.log(numberToGuess);
