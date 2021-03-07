@@ -32,3 +32,4 @@ The following do not cause an Uncaught SyntaxError:
 
     A player's score changes during a game, so a constant is not the best choice for a variable whose value changes.
     Good examples for a variable would be a users name, a tax rate, or a greeting.
+    Remember that variables defined as constants can't have their value reassigned.
