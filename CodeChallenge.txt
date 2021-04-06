@@ -1,0 +1,35 @@
+Evaluate the code in app.js. The code currently produces a TypeError. 
+Adjust the code so that the points variable holds the expected value.
+
+const points = 100;
+const bonusPts = 50;
+
+points += bonusPts;
+console.log(points);
+
+Answer: const wont work here, use "var" instead.
+
+The following produces an Uncaught SyntaxError:
+    let numberToGuess = 5;
+    let numberToGuess = 20;
+    console.log(numberToGuess);
+
+The following do not cause an Uncaught SyntaxError:
+    var numberToGuess = 5;
+    var numberToGuess = 20;
+    console.log(numberToGuess);
+
+    var numberToGuess = 5;
+    numberToGuess += 3;
+    console.log(numberToGuess);
+
+    let numberToGuess = 5;
+    numberToGuess += 3;
+    console.log(numberToGuess);
+
+    It's best not to use the const keyword in which of the following variable declarations:
+    A variable used to track a players score.
+
+    A player's score changes during a game, so a constant is not the best choice for a variable whose value changes.
+    Good examples for a variable would be a users name, a tax rate, or a greeting.
+    Remember that variables defined as constants can't have their value reassigned.

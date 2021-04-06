@@ -1,0 +1,31 @@
+JavaScript treats this statement:
+
+const daysInWeek = 7;
+in the same way as this:
+
+const daysInWeek=7;
+Even the same as this:
+
+    const           
+               daysInWeek
+                                        =
+                                               7  ;
+All of the above examples are valid JavaScript -- even the bottom example which uses lots of carriage returns and spaces to separate each part of the statement. A JavaScript statement can span more than one line. But just because you can use lots of spaces, tabs and carriage returns, doesn't mean you should.
+
+Using Space in Your Code
+A good rule of thumb is: use space to make your code easier to read and understand. Too much space, like the bottom example, can be distracting. Too little space and your code can be harder to read because the letters and symbols are squashed together.
+
+Many programmers like to add space to make the code easier to understand. That's why including a space on either side of the = sign is the most common approach.
+
+const daysInWeek = 7;
+The space makes it clear that the name, = sign, and value are distinct pieces of the statement.
+
+There are times, however, when space is necessary. For example, to create a variable, you use the const keyword followed by a name for that variable.
+
+const daysInWeek = 7;
+In this case, you need a space between const and daysInWeek so that the JavaScript engine can interpret them as two separate identifiers. In other words, this will not work, because the JavaScript engine is not able to separate const from daysInWeek.
+
+constdaysInWeek = 7;
+Likewise, do not add spaces in the middle of a variable name, because the browser will see each word as a separate identifier. For example, the following produces a syntax error.
+
+const days In Week = 7;
