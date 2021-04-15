@@ -5,3 +5,9 @@ console.log(passphrase.length);
 // the use of this could be for passwords that must reach a certain amount of characters, or to make sure a required input field is not 0
 // strings are treated as objects
 // ( you can access the property of an object using a dot ".")
+
+// Here's a couple of cool methods!
+toUppercase()
+// converts a string to all uppercase letters
+toLowercase()
+// similarly, this would convert a string to all lowercase letters
