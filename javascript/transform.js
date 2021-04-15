@@ -20,3 +20,5 @@ console.log(passphrase);
 // Quiz!
 // Which of the following creates the variable message and stores a string value in it?
 let message = "These are not the droids you're looking for.";
+// Which of the following is an example of a string?
+"Hello world!"
