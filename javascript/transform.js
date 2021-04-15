@@ -14,3 +14,5 @@ toLowercase()
 
 const passphrase = 'I Have Spoken';
 console.log(passphrase.toLowerCase());
+// remember though, this in no way alters the original string
+console.log(passphrase);
