@@ -22,3 +22,5 @@ console.log(passphrase);
 let message = "These are not the droids you're looking for.";
 // Which of the following is an example of a string?
 "Hello world!"
+    // Which of the following is a method?
+    .toUpperCase() // the parentheses at the end are a pretty good indicator
