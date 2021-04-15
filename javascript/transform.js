@@ -11,3 +11,6 @@ toUppercase()
 // converts a string to all uppercase letters
 toLowercase()
 // similarly, this would convert a string to all lowercase letters
+
+const passphrase = 'I Have Spoken';
+console.log(passphrase.toLowerCase());
