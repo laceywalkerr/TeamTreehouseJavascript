@@ -24,3 +24,6 @@ let message = "These are not the droids you're looking for.";
 "Hello world!"
     // Which of the following is a method?
     .toUpperCase() // the parentheses at the end are a pretty good indicator
+// Complete this code by adding the string property that returns the number of characters inside the string:
+"Good morning, students!".____;
+// the answer is "length"
