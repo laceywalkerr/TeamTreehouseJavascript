@@ -16,3 +16,7 @@ const passphrase = 'I Have Spoken';
 console.log(passphrase.toLowerCase());
 // remember though, this in no way alters the original string
 console.log(passphrase);
+
+// Quiz!
+// Which of the following creates the variable message and stores a string value in it?
+let message = "These are not the droids you're looking for.";
