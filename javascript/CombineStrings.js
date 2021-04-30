@@ -6,6 +6,8 @@
 const name = prompt("What is your name?");
 const message = "Hello!";
 
-// Combining two strings
+// Combining two strings 
+// String Concatenation
+// The process of combining two or more strings to create  a bigger string.
 const name = promt("What is your name?");
 const message = "Hello" + name;
