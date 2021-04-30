@@ -66,3 +66,10 @@ let lastName = "Walker";
 let role = 'developer';
 msg = firstName + " " + lastName + ": " + role;
 
+//Challenge Task 3 of 3
+//Finally, convert the string stored in role to uppercase letters. The final msg string should look similar to this: "Carlos Salgado: DEVELOPER".
+//Answer
+let firstName = "Lacey";
+let lastName = "Walker";
+let role = 'developer';
+msg = firstName + " " + lastName + ": " + role.toUpperCase();
