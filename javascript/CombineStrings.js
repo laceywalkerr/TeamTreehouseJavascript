@@ -23,5 +23,22 @@ const message = "Hello" + name + ". Welcome to my music site. " + "I'm so happy 
 const name = promt("What is your name?");
 const message = "Hello" + name + ". Welcome to my music site. ";
 const message = message + "I'm so happy that you came to visit my site, " + name + ". Feel free to come by again and listen to some more music!";
+// console.log(message);
+
+// We are delcaring the message variable with const, and a variable declared with "const" cannot be changed through reassignment. 
+// Uncaught TypeError: Assignment to constant variable
+const name = promt("What is your name?");
+const message = "Hello" + name + ". Welcome to my music site. ";
+message += "I'm so happy that you came to visit my site, ";
+message += name;
+message += ". Feel free to come by again and listen to some more music!"
+console.log(message);
+
+// You would need to use the keyword "let" instead. This would work fine.
+const name = promt("What is your name?");
+let message = "Hello" + name + ". Welcome to my music site. ";
+message += "I'm so happy that you came to visit my site, ";
+message += name;
+message += ". Feel free to come by again and listen to some more music!"
 console.log(message);
 
