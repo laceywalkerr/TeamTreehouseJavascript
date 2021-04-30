@@ -42,3 +42,13 @@ message += name;
 message += ". Feel free to come by again and listen to some more music!"
 console.log(message);
 
+//Challenge Task 1 of 3
+//Assign your first name to the variable firstName and your last name to lastName.
+let firstName;
+let lastName;
+let role = 'developer';
+//Answer
+let firstName = "Lacey";
+let lastName = "Walker";
+let role = 'developer';
+
