@@ -12,10 +12,16 @@ const message = "Hello!";
 const name = promt("What is your name?");
 const message = "Hello" + name + ". Welcome to my music site.";
 // this is done with the plus operator aka "+"
-console.log(message);
+// console.log(message);
 
 // Another, much longer example.
 const name = promt("What is your name?");
 const message = "Hello" + name + ". Welcome to my music site. " + "I'm so happy that you came to visit my site, " + name + ". Feel free to come by again and listen to some more music!";
+// console.log(message);
 
+// Lets rewrite this a little
+const name = promt("What is your name?");
+const message = "Hello" + name + ". Welcome to my music site. ";
+const message = message + "I'm so happy that you came to visit my site, " + name + ". Feel free to come by again and listen to some more music!";
+console.log(message);
 
