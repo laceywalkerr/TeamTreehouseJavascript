@@ -5,3 +5,7 @@
 // Lets declare two variables
 const name = prompt("What is your name?");
 const message = "Hello!";
+
+// Combining two strings
+const name = promt("What is your name?");
+const message = "Hello" + name;
