@@ -52,3 +52,17 @@ let firstName = "Lacey";
 let lastName = "Walker";
 let role = 'developer';
 
+//Challenge Task 2 of 3
+//Below role, create a new variable named msg that combines the firstName, lastName and role variables to create a string like "Carlos Salgado: developer".
+
+//HINT: Pay close attention to the spaces in the string.
+let firstName = "Lacey";
+let lastName = "Walker";
+let role = 'developer';
+
+//Answer
+let firstName = "Lacey";
+let lastName = "Walker";
+let role = 'developer';
+msg = firstName + " " + lastName + ": " + role;
+
