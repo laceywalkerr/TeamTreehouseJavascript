@@ -10,4 +10,8 @@ const message = "Hello!";
 // String Concatenation
 // The process of combining two or more strings to create  a bigger string.
 const name = promt("What is your name?");
-const message = "Hello" + name;
+const message = "Hello" + name + ". Welcome to my music site.";
+// this is done with the plus operator aka "+"
+console.log(message);
+
+
